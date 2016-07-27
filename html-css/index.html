@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+    <form action="http://127.0.0.1/forma" method='get'>
+        <label>Age: <input type="text" name="age" /></label>
+        <br/>
+        Gender:
+        <input id="female" type='radio' name='gender' value='f'>
+        <label for="femal">Female</label>
+        <input id="male" type="radio" name='gender' value='m'>
+        <label for="male">Male</label>
+    </form>
+
+    <form action="http://127.0.0.1/fset" method="get">
+        <fieldset>
+            <legend>Contact details</legend>
+            <label>Email:<br />
+                <input type='text' name='email' /> </label><br />
+            <label>Mobile:<br />
+                <input type='text' name='mobile' /> </label><br />
+            <label>Telephone:<br />
+                <input type='text' name="telephone" /></label><br />
+            <label>Send<br />
+                <input type='submit' value='enviar' /></label>
+        </fieldset>
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,3 @@
+http://sqlzoo.net/
+http://docs.sqlalchemy.org/en/latest/orm/tutorial.html
+http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/ [tutorial - Python's SQLAlchemy and Object-Relational Mapping]
