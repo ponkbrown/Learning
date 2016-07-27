@@ -1,3 +1,4 @@
 http://sqlzoo.net/
 http://docs.sqlalchemy.org/en/latest/orm/tutorial.html
 http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/ [tutorial - Python's SQLAlchemy and Object-Relational Mapping]
+https://bitbucket.org/zzzeek/pycon2013_student_package/src/a5b84d0659cb?at=master

@@ -5,29 +5,30 @@
 	<title></title>
 </head>
 <body>
-    <form action="http://127.0.0.1/forma" method='get'>
-        <label>Age: <input type="text" name="age" /></label>
-        <br/>
-        Gender:
-        <input id="female" type='radio' name='gender' value='f'>
-        <label for="femal">Female</label>
-        <input id="male" type="radio" name='gender' value='m'>
-        <label for="male">Male</label>
-    </form>
-
-    <form action="http://127.0.0.1/fset" method="get">
+    <form action='details' method='get'>
         <fieldset>
-            <legend>Contact details</legend>
-            <label>Email:<br />
-                <input type='text' name='email' /> </label><br />
-            <label>Mobile:<br />
-                <input type='text' name='mobile' /> </label><br />
-            <label>Telephone:<br />
-                <input type='text' name="telephone" /></label><br />
-            <label>Send<br />
-                <input type='submit' value='enviar' /></label>
+            <label for='nombre'>Nombre: </label>
+            <input type='text' name='nombre' />
+            <label for='email'>Email:</label>
+            <input type='email' name='email' />
         </fieldset>
-    
+        <fieldset>
+            Como supiste de nosotros:<br>
+            <select name='anuncio'>
+                <option value='google'>Google</option>
+                <option value='yahoo'>Yahoo</option>
+                <option value='otro'>Otro</option>
+            </select>
+            Nos visitarias otra vez:<br>
+            <input type='radio' name='return' value='si' checked>Si
+            <input type='radio' name='return' value='no'>No 
+            <input type='radio' name='return' value='talvez'>Tal vez<br>
+            <p>Comments:<br>
+            <textarea name='comentario' cols='20' rows='4'></textarea>
+            </p>
+            <input type='checkbox' name='newsletter' value='True'>Suscribirse<br>
+            <input type='submit' value='Enviar'>
+        </fieldset>
     </form>
 </body>
 </html>
