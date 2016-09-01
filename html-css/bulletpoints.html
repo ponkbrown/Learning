@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style></style>
+    <meta charset="UTF-8">
+    <title>Propiedades de tablas</title>
+    <style>
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #222222;}
+table {
+    width: 600px;}
+th, td {
+    padding: 7px 10px 10px 10px;}
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 77%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;}
+tr.even {
+    background-color: #efefef;}
+tr:hover {
+    background-color: #c3e6e5;}
+.money{
+    text-align: right;}
+td {
+    border: 1px solid #8800dd;
+    padding: 15px;}
+table.one{
+    border: 3px solid red;}
+table.two{
+    border-collapse: collapse;}
+
+    </style>
+</head>
+<body>
+    <h1>Los Titulos</h1>
+    <table>
+        <tr>
+            <th>Author</th>
+            <th>Title</th>
+            <th class="money">Reserve Price</th>
+            <th class="money">Current Bid</th>
+        </tr>
+        <tr>
+            <td>E.E. Cummings</td>
+            <td>Tulips & Chimneys</td>
+            <td class="money">$2,000.00</td>
+            <td class="money">$2,642.50</td>
+        </tr>
+        <tr class="even">
+            <td>Charles d'Orleans</td>
+            <td>Poemes</td>
+            <td class="money"></td>
+            <td class="money">$5,866.00</td>
+        </tr>
+        <tr>
+            <td>T.S. Eliot</td>
+            <td>Poems 1909 - 1925</td>
+            <td class="money">$1,250.00</td>
+            <td class="money">$8,499.35</td>
+        </tr>
+        <tr class="even">
+            <td>Sylvia Plath</td>
+            <td>The Colossus</td>
+            <td class="money"></td>
+            <td class="money">$1031,72</td>
+        </tr>
+    </table>
+    <br>
+    <table class="one">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+        </tr>
+    </table>
+    <table class="two">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
