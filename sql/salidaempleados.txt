@@ -1,0 +1,21 @@
+sqlite> SELECT *
+   ...> FROM empleado JOIN departamento
+   ...> ON empleado.IDDepartamento = departamento.IDDepartamento;
+id          Apellido    IDDepartamento  IDDepartamento  NombreDepartamento
+----------  ----------  --------------  --------------  ------------------
+1           Andrade     31              31              Ventas
+2           Jordan      33              33              Ingenieria
+3           Steinberg   33              33              Ingenieria
+4           Robinson    34              34              Produccion
+5           Zolano      34              34              Produccion
+sqlite> SELECT empleado.apellido, departamento.nombredepartamento
+   ...> FROM empleado JOIN departamento
+   ...> ON empleado.IDDepartamento = departamento.iddepartamento;
+Apellido    NombreDepartamento
+----------  ------------------
+Andrade     Ventas
+Jordan      Ingenieria
+Steinberg   Ingenieria
+Robinson    Produccion
+Zolano      Produccion
+sqlite>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nikola Tesla</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet"href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    body{
+        font: 20px "Nunito", sans-serif; }
+    p{
+        font-size: 16px; }
+    .margin{
+        margin-bottom: 45px; }
+    .bg-1{
+        background-color: #1abc9c; /* Verde */
+        color: #ffffff; }
+    .bg-2{
+        background-color: #474e5d; /* Verde */
+        color: #ffffff; }
+    .bg-3{
+        background-color: #ffffff; /* Verde */
+        color: #555555; }
+    .bg-4{
+        background-color: #2f2f2f;
+        color: #ffffff; }
+    .container-fluid{
+        padding-top: 70px;
+        padding-bottom: 70px; }
+    blockquote{
+        padding-bottom: 70px;
+    }
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom:0;
+        font-size: 12px;
+        letter-spacing: 5px; }
+    .navbar-nav li a:hover {
+        color: #1abc9c !important; }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class='navbar-brand' href="#">Nikola Tesla</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class='nav navbar-nav navbar-right'>
+                    <li><a href="#">QUIEN</a></li>
+                    <li><a href="#">QUE</a></li>
+                    <li><a href="#">COMO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-1 text-center">
+        <h3 class='margin'>¿Quién fue?</h3>
+        <img src="imagenes/tesla.jpg" class="img-circle" alt="Tesla">
+        <h3>Nikola Tesla</h3>
+        <h4><mark><small>El hombre que iluminó el mundo</small></mark></h4>
+
+    </div>
+    <div class="container-fluid bg-2 text-center">
+        <h3 class='margin'>¿Que fué?</h3>
+        <p> Fue un Ingeniero, inventor, mecánico, ingeniero eléctrico y fisico nacido en Serbia. Hizo muchas invenciones reconocidas sobre todo en el capo de el electromagnetismo. </p>
+        <p> Nikola Tesla amaba la ciencia pero no se interesaba mucho por los negocios muchos de sus proyecto nunca fueron puestos bajo protección de las patentes pues el creia en sus inventos para beneficio de la humanidad.</p>
+        <a href="http://es.wikipedia.org/wiki/Nikola_Tesla" class="btn btn-default btn-lg" target='_new'><span class="glyphicon glyphicon-search"></span>Ver Wikipedia</a>
+    </div>
+    <div class="container-fluid bg-3 text-center">
+        <blockquote class="text-left">
+            <p> "El presente es vuestro, pero el futuro es mío.</p>
+
+            <p>El desarrollo del hombre depende fundamentalmente de la invención. Es el producto más importante de su cerebro creativo.</p>
+
+            <p>En el espacio hay energía y es cuestión de tiempo que el ser humano logre aprovecharla. El científico no busca resultados instantáneos ni espera que sus ideas avanzadas sean aceptadas fácilmente, su deber es sentar bases, señalar el camino a los que vendrán.</p>
+
+            <p>Cualquier persona, en tierra o mar, podrá recibir noticias de cualquier lugar del mundo o mensajes particulares destinados solo a ella con un aparato sencillo y barato que cabe en el bolsillo."</p>
+            <footer> Nikola Tesla </footer>
+        </blockquote>
+
+
+        <h3 class='margin'>¿Que inventó?</h3>
+        <p>Entre los más destacables inventos y descubrimientos que han llegado al conocimiento del público en general, podemos destacar:</p>
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>La Radio</h2>
+                <p>Probablemente el “robo” más flagrante que nunca le hicieron a Tesla</p>
+                <img src="imagenes/radio.jpg" class='img-responsive img-rounded' alt="radio" width=300px>
+            </div>
+            <div class="col-sm-4">
+                <h2>La Bobina Tesla</h2>
+                <p>No de los inventos mas utiles, pero aun es uno de los mas vistosos.</p>
+                <img src="imagenes/bobina.jpg" class ='img-responsive img-rounded' alt="Bobina Tesla" width=400px>
+            </div>
+            <div class="col-sm-4">
+                <h2>Aeroplano de despegue y aterrizaje vertical</h2>
+                <p>Es decir un helicoptero primitivo.</p>
+                <img src="imagenes/aeroplano.jpg" class ='img-responsive img-rounded'  alt="Helicoptero" width=450px;>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid bg-4 text-center">
+        <p> Tema echo en bootstrap para <a href="http://freecodecamp.com">FreeCodeCamp</a> con ayuda de un tutorial de <a href="http://www.w3schools.com">www.w3schools.com</a></p>
+    </footer>
+
+</body>
+</html>
